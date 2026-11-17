@@ -1,28 +1,28 @@
 class LevelrailCli < Formula
   desc "Command line client for Levelrail, a self-hosted deployment platform"
   homepage "https://levelrail.com"
-  version "1.3.2"
+  version "1.4.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/glincker/levelrail/releases/download/v1.3.2/levelrail-cli-darwin-arm64"
-      sha256 "2f71c52ba8e575c2e59898078b80e506e3645bf064413ab223194b6ba188f5fe"
+      url "https://github.com/glincker/levelrail/releases/download/v1.4.0/levelrail-cli-darwin-arm64"
+      sha256 "02bf9f2667a5a812c983a0355277651d8760e425b2aa39f5897670515dc95bd0"
     end
     on_intel do
-      url "https://github.com/glincker/levelrail/releases/download/v1.3.2/levelrail-cli-darwin-amd64"
-      sha256 "995adc8224eb011571b839c4d78f9a39e704f5bb63e1e0066096a8b7558516b4"
+      url "https://github.com/glincker/levelrail/releases/download/v1.4.0/levelrail-cli-darwin-amd64"
+      sha256 "3e3f92a600e6f7bfe9515f3c5088d93ddaa708bfb940d2d2148e8a17053f1c36"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/glincker/levelrail/releases/download/v1.3.2/levelrail-cli-linux-arm64"
-      sha256 "fe643af2470f90263e1d86ba038053118599def84948bfb6cfd58e795becdfa5"
+      url "https://github.com/glincker/levelrail/releases/download/v1.4.0/levelrail-cli-linux-arm64"
+      sha256 "9aefb0d0d922403539d8b8baa7fecff4a747a045ecb0c22f51ff09b23a32493b"
     end
     on_intel do
-      url "https://github.com/glincker/levelrail/releases/download/v1.3.2/levelrail-cli-linux-amd64"
-      sha256 "db6c160684186009ae219d9a6c1803b8e620025dfc8b2d0e7b8169b8be2295bb"
+      url "https://github.com/glincker/levelrail/releases/download/v1.4.0/levelrail-cli-linux-amd64"
+      sha256 "5609ea0c4ba1f211831c4747191d1353288a458b6500cca8aec2d62f8dc79a6a"
     end
   end
 
