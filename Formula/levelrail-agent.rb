@@ -1,19 +1,19 @@
 class LevelrailAgent < Formula
   desc "Node agent for Levelrail, a self-hosted deployment platform"
   homepage "https://levelrail.com"
-  version "1.5.12"
+  version "1.5.13"
   license "Apache-2.0"
 
   depends_on :macos
 
   on_macos do
     on_arm do
-      url "https://github.com/glincker/levelrail/releases/download/v1.5.12/levelrail-agent-darwin-arm64"
-      sha256 "7687b5201eaf62c215979534a38547c99a1c154a9ca0bc16e8133562559c3b13"
+      url "https://github.com/glincker/levelrail/releases/download/v1.5.13/levelrail-agent-darwin-arm64"
+      sha256 "abf7a6af50e87f0ed9031e3741ec571f026953d8343ef5accbd2119a4f473baf"
     end
     on_intel do
-      url "https://github.com/glincker/levelrail/releases/download/v1.5.12/levelrail-agent-darwin-amd64"
-      sha256 "0d548f1d121e31c2897189905df1a783549e2da849bd8ee8e07327455f7ffd35"
+      url "https://github.com/glincker/levelrail/releases/download/v1.5.13/levelrail-agent-darwin-amd64"
+      sha256 "39587918a0e3e4fd0da2475c615c51737de213efb8d5ce0b80a4d3989730042d"
     end
   end
 
